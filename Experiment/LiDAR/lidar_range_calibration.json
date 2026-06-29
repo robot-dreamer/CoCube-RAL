@@ -1,0 +1,101 @@
+{
+  "model": "polynomial_true_range_from_measured_range",
+  "degree": 2,
+  "coefficients_high_to_low": [
+    0.0005017574105424331,
+    0.793589966366119,
+    20.32551999308153
+  ],
+  "usage": "r_true = polyval(coefficients_high_to_low, r_measured)",
+  "summary": {
+    "num_samples": 6000,
+    "measured_range_min": 28.888888888888886,
+    "measured_range_max": 246.66666666666666,
+    "true_range_min": 48.311858591712344,
+    "true_range_max": 293.2883879947705,
+    "raw_rmse": 12.24448137880281,
+    "fit_rmse": 8.504053033795978,
+    "fit_mae": 4.973148767622283,
+    "fit_max_abs_error": 109.29166146339696
+  },
+  "inputs": [
+    {
+      "file": "x100.json",
+      "created_at": "2026-05-02T16:44:46",
+      "wall_axis": "x",
+      "wall_coord_pygame": 100,
+      "wall_coord_algo": 100,
+      "num_requested": 1000,
+      "num_collected": 1000,
+      "wall_tolerance": 20.0,
+      "min_range": 5.0,
+      "max_range": 380.0,
+      "min_incidence_cos": 0.1
+    },
+    {
+      "file": "x200.json",
+      "created_at": "2026-05-02T16:40:22",
+      "wall_axis": "x",
+      "wall_coord_pygame": 200,
+      "wall_coord_algo": 200,
+      "num_requested": 1000,
+      "num_collected": 1000,
+      "wall_tolerance": 20.0,
+      "min_range": 5.0,
+      "max_range": 380.0,
+      "min_incidence_cos": 0.1
+    },
+    {
+      "file": "x250.json",
+      "created_at": "2026-05-02T16:41:10",
+      "wall_axis": "x",
+      "wall_coord_pygame": 250,
+      "wall_coord_algo": 250,
+      "num_requested": 1000,
+      "num_collected": 1000,
+      "wall_tolerance": 20.0,
+      "min_range": 5.0,
+      "max_range": 380.0,
+      "min_incidence_cos": 0.1
+    },
+    {
+      "file": "y0.json",
+      "created_at": "2026-05-02T16:46:37",
+      "wall_axis": "y",
+      "wall_coord_pygame": 0,
+      "wall_coord_algo": 200,
+      "num_requested": 1000,
+      "num_collected": 1000,
+      "wall_tolerance": 20.0,
+      "min_range": 5.0,
+      "max_range": 380.0,
+      "min_incidence_cos": 0.1
+    },
+    {
+      "file": "y50.json",
+      "created_at": "2026-05-02T16:46:10",
+      "wall_axis": "y",
+      "wall_coord_pygame": 50,
+      "wall_coord_algo": 150,
+      "num_requested": 1000,
+      "num_collected": 1000,
+      "wall_tolerance": 20.0,
+      "min_range": 5.0,
+      "max_range": 380.0,
+      "min_incidence_cos": 0.1
+    },
+    {
+      "file": "y150.json",
+      "created_at": "2026-05-02T16:45:28",
+      "wall_axis": "y",
+      "wall_coord_pygame": 150,
+      "wall_coord_algo": 50,
+      "num_requested": 1000,
+      "num_collected": 1000,
+      "wall_tolerance": 20.0,
+      "min_range": 5.0,
+      "max_range": 380.0,
+      "min_incidence_cos": 0.1
+    }
+  ]
+}
